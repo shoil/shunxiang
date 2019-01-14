@@ -29,17 +29,17 @@
             <!-- collapse -->
             <div class="collapse navbar-collapse navbar-right" id="collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SKILL</a></li>
-                    <li><a href="#">WORK</a></li>
-                    <li><a href="#">CONCAT</a></li>
+                    <li><a href="#" id="n_home">HOME</a></li>
+                    <li><a href="#" id="n_about">ABOUT</a></li>
+                    <li><a href="#" id="n_skill">SKILL</a></li>
+                    <li><a href="#" id="n_work">WORK</a></li>
+                    <li><a href="#" id="n_contact">CONTACT</a></li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div id="carousel-example-generic id="homec"" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -72,7 +72,7 @@
     </div>
 
     <div class="middle">
-        <div class="top">
+        <div class="top" id="about-me">
             <p class="title">ABOUT</p>
             <div class="line"></div>
         </div>
@@ -87,7 +87,7 @@
     </div>
 
     <div class="middle-skill">
-        <div class="top">
+        <div class="top" id="skillc">
             <p class="title">SKILL</p>
             <div class="line"></div>
         </div>
@@ -98,7 +98,6 @@
                         <p>HTML&CSS</p>
                         <div class="progress">
                             <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: 90%;">
-                                <div class="progress-value">90%</div>
                             </div>
                         </div>
                     </div>
@@ -107,7 +106,6 @@
                         <p>JavaScript</p>
                         <div class="progress">
                             <div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 85%;">
-                                <div class="progress-value">85%</div>
                             </div>
                         </div>
                     </div>
@@ -116,7 +114,6 @@
                         <p>小程序</p>
                         <div class="progress">
                             <div class="progress-bar progress-bar-warning progress-bar-striped active" style="width: 80%;">
-                                <div class="progress-value">80%</div>
                             </div>
                         </div>
                     </div>
@@ -125,7 +122,6 @@
                         <p>VUE&React</p>
                         <div class="progress">
                             <div class="progress-bar progress-bar-danger progress-bar-striped active" style="width: 60%;">
-                                <div class="progress-value">60%</div>
                             </div>
                         </div>
                     </div>
@@ -136,7 +132,7 @@
     </div>
 
     <div class="middle-work">
-        <div class="top">
+        <div class="top" id="workc">
             <p class="title">WORK</p>
             <div class="line"></div>
         </div>
@@ -217,15 +213,15 @@
     </div>
 
     <div class="footer">
-        <div class="top">
+        <div class="top" id="contactc">
             <p class="title">CONCAT</p>
             <div class="line"></div>
         </div>
-        <div class="footer-concat" col-sm-12 col-md-4>
+        <div class="footer-concat" id="contactteam" col-sm-12 col-md-4>
                 <ul class="contact">
                     <li class="phone">
                         <img src="images1/qq3.png" alt="">
-                        <img src="images1/qqsha.jpg" alt="" class="hidden-img hid">
+                        <img src="images1/qqsha.jpg" alt="" class="hidden-img">
                     </li>
                     <li class="wechat">
                         <img src="images1/weixin.png" alt="">
@@ -233,7 +229,7 @@
                     </li>
                     <li class="qq">
                         <img src="images1/手机 (2).png" alt="">
-                        <img src="images1/phone.png" alt="" class="hidden-img">
+                        <img src="images1/phone.png" alt="" class="hidden-num">
                     </li>
                 </ul>
         </div>
@@ -242,6 +238,7 @@
     <!--  -->
     <script src="bootstrap/js/jquery-3.2.1.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
