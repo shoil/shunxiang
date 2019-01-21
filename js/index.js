@@ -1,49 +1,51 @@
-// $(window).scroll(function () {
+// 使导航栏因滚动而变色
+$(window).scroll(function () {
     
-//     var scroll = $(window).scrollTop();
-//     console.log(scroll);
-//     if(scroll<746){
-//         $("#homec").addClass("on").siblings().removeClass("on");
-//     }
-//     if(scroll>=746&&scroll<1407){
-//         $("#about").addClass("on").siblings().removeClass("on");
-//     }
-//     if(scroll>=1407&&scroll<2376){
-//         $(".hobbyc").addClass("on").siblings().removeClass("on");
-//     }
-//     if(scroll>=2376&&scroll<3035){
-//         $(".skillc").addClass("on").siblings().removeClass("on");
-//     }
-//     if(scroll>=3035&&scroll<3626){
-//         $(".workc").addClass("on").siblings().removeClass("on");
-//     }
-//     if(scroll>=3406){
-//         $(".contactc").addClass("on").siblings().removeClass("on");
-//     }
+    var scroll = $(window).scrollTop();
+    var top_about = $('#about-me').offset().top;
+    var top_skill = $('#skillc').offset().top;
+    var top_work = $('#workc').offset().top;
+    var top_contact = $('#contactc').offset().top;
+    if(scroll<top_about){
+
+        $("#n_home").addClass("on").parent().siblings().children().removeClass('on');
+    }
+    if(scroll>=top_about&&scroll<top_skill){
+        $("#n_about").addClass("on").parent().siblings().children().removeClass('on');
+    }
+    if(scroll>=top_skill&&scroll<top_work){
+        // console.log(1);
+        $("#n_skill").addClass("on").parent().siblings().children().removeClass('on');
+    }
+    if(scroll>=top_work&&scroll<top_contact){
+        $("#n_work").addClass("on").parent().siblings().children().removeClass('on');
+    }
+    if(scroll>=2370){
+        $("#n_contact").addClass("on").parent().siblings().children().removeClass('on');
+    }
     
-//     //浠ヤ笅鏄妧鑳芥潯鐨勫姩鎬佹晥鏋�
-//     if(scroll>=2228){
-        
-//         $(".html").animate({width:'700px'}, 1000);
-//         $(".css").animate({width: "750px"}, 1000);
-//         $(".javascript").animate({width: "650px"}, 1000);
-//         $(".python").animate({width: "600"}, 1000);
-//     } 
-    
-// })
+})
+
+$(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+    var top_about = $('#about-me').offset().top;
+    console.log(scroll);
+    if(scroll>top_about){
+        $("#my_head").addClass("new")
+    }
+
+})
+// 使点击导航栏能滚动到目标位置
 $(function(){
-    var top_home = $('#n_home').offset().top;
+    // var top_home = $('#n_home').offset().top;
     var top_about = $('#about-me').offset().top;
     var top_skill = $('#skillc').offset().top;
     var top_work = $('#workc').offset().top;
     var top_contact = $('#contactc').offset().top;
     $("#n_home").click(function () {
-        
-        $("html, body").animate({ scrollTop: top_home}, 700);       
+        // console.log(top_home);
+        $("html, body").animate({ scrollTop: 0}, 700);       
     })
-    // $(".aboutme-btn").click(function(){
-    //     $("html, body").animate({scrollTop: 746}, 700);
-    // })
     $("#n_about").click(function(){
         // console.log(top_about);
         $("html, body").animate({scrollTop: top_about}, 700);
