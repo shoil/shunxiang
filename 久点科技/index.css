@@ -1,0 +1,155 @@
+*{margin:0;padding:0}
+.top{
+    width:65%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.top img{
+    width: 100%;
+}
+.row{
+    padding-top:40px;
+}
+.items img{
+    width:30%;
+}
+.items{
+    text-align: center;
+}
+.template-lab{
+    font-weight: bold;
+    font-size:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.list{
+    width:100%;
+    background: #133167;
+}
+.lists img{
+    width:42px;
+    height:42px;
+    margin-bottom:20px;
+}
+.lists{
+    text-align: center;
+    font-size: 18px;
+    color:#fff;
+}
+.lists .lists-top{
+    font-weight: bold;
+    font-size:36px;
+}
+
+.nav1{
+    width:100%;
+    text-align: center;
+    margin-top:120px;
+    margin-bottom:80px;
+}
+.nav1-title1{
+    color: #333;
+    font-size:42px;
+    font-weight: bold;
+}
+.nav1-title2{
+    color: #E53333;
+    font-size:42px;
+    font-weight: bold;
+}
+.line2{
+    margin-left:auto;
+    margin-right:auto;
+    width:30%;
+    height:1px;
+    background: #333;
+    position: relative;
+}
+.box{
+    width:40px;
+    height:10px;
+    background: #333;
+    position: absolute;
+    left:43%;
+    top:-5px;
+}
+.nav1-image{
+    text-align: center;
+    margin-bottom:150px;
+}
+.nav1-image img{
+    width: 100%;
+}
+.detail img{
+    width:100%;
+}
+.nav2{
+    width:100%;
+    background:#133167;
+    text-align: center;
+    padding-top:80px;
+    padding-bottom:60px;
+    padding-left:85px;
+    padding-right: 85px;
+}
+.nav2-title{
+    font-size: 33px;
+    font-weight: bold;
+    color: #fff;
+}
+.nav2-item{
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
+.line{
+    width:90%;
+    height:1px;
+    background: #fff;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.nav3{
+    width:90%;
+    
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    margin-top:142px;
+}
+.nav3-title{
+    font-size:30px;
+    font-weight: bold;
+    color:#333;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+    font-size:24px;
+    font-weight: bold;
+    color: #333;
+    /* text-align: center; */
+}
+table, td, th{
+    border:1px solid #333;
+    line-height: 50px;
+  
+}
+.nav3-tip{
+    color:#E53333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 200px;
+}
+.nav3-tip2{
+    font-size: 20px;
+    font-weight: bold;
+    color:#333;
+    margin-bottom:40px;
+}
+.footer{
+    width:100%;
+    height:140px;
+    background: #333439;
+}

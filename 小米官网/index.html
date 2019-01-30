@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="base.css">
+    <script src="jquery-3.2.1.js"></script>
+</head>
+<body>
+    <div class="Top">
+        <div class="top">
+        <div class= "daohang" >
+            <a href="#">小米网</a><span>&nbsp;|&nbsp;</span>
+            <a href="#">MIUL</a><span>&nbsp;|&nbsp;</span>
+            <a href="#">米聊</a><span>&nbsp;|&nbsp;</span>
+            <a href="#">游戏</a><span>&nbsp;|&nbsp;</span>
+            <a href="#">多看阅读</a><span>&nbsp;|&nbsp;</span>
+            <a href="#">云服务</a><span>&nbsp;|&nbsp;</span>
+            <a href="#">小米网移动版</a><span>&nbsp;|&nbsp;</span>
+            <a href="#">Select region</a><span>&nbsp;|&nbsp;</span>
+            <a href="#">米粉节答疑</a>
+        </div>
+        <div class="zhuce">
+            <a href="#">注册</a><span>&nbsp;|&nbsp;</span>
+            <a href="#">登陆</a>
+        </div>
+        </div>
+    </div>
+    <div class="center row"> 
+    <div class="container"> 
+
+        <div class="header">
+            <div class="header-logo">
+                <a href="#" class="logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="clock">
+                <span><img src="images/clock.png" alt=""></span>
+                <span>4月4日开放购物</span>
+            </div>
+            <div class="header-cart">
+                <input type="text" placeholder="搜索您需要的商品" class="shuru">
+                <input type="submit"class="fangdajing" value="">
+                <input type="submit"class="gouwuche" value="购物车">
+            </div>
+        </div>
+    
+        <div class="border row">
+            <div class="nav">
+                <div class="fenlei">
+                <a href="#" >全部商品分类</a>
+                </div>
+                <div class="shouye">
+                <a href="#">首页</a>
+                <a href="#">小米手机</a>
+                <a href="#">红米</a>
+                <a href="#">小米平板</a>
+                <a href="#">小米电视</a>
+                <a href="#">盒子</a>
+                <a href="#">路由器</a>
+                <a href="#">合约机</a>
+                <a href="#">服务</a>
+                <a href="#">社区</a>
+                </div>
+            </div>
+
+            <div class="clarify">
+                <ul>
+                    <li><a href="#" class="gou">购买手机</a></li>
+                    <li><a href="#" class="xiao">小米Noto 小米4 红米 红米Noto</a></li>
+                </ul><hr/>
+                <ul>
+                    <li><a href="#" class="gou">购买电视与平板</a></li>
+                    <li><a href="#" class="xiao">小米电视 小米盒子 小米平板</a></li>
+                </ul><hr/>
+                <ul>
+                    <li><a href="#" class="gou">路由器与智能硬件</a></li>
+                    <li><a href="#" class="xiao">路由器 体重秤 净化器与滤芯</a></li>
+                </ul><hr/>
+                <ul>
+                    <li><a href="#" class="gou">插线板、移动电源与电池</a></li>
+                    <li><a href="#" class="xiao">小米移动电源 电池 充电器</a></li>
+                </ul><hr/>
+                <ul>
+                    <li><a href="#" class="gou">耳机音响与储存卡</a></li>
+                    <li><a href="#" class="xiao">小米头戴式耳机 小米活塞耳机</a></li>
+                </ul><hr/>
+                <ul>
+                    <li><a href="#" class="gou">保护套与贴膜</a></li>
+                    <li><a href="#" class="xiao">保护套/保护壳 贴膜 防尘塞</a></li>
+                </ul><hr/>
+                <ul>
+                    <li><a href="#" class="gou">后盖与个性化配件</a></li>
+                    <li><a href="#" class="xiao">米键 后盖 贴纸 手机支架</a></li>
+                </ul><hr/>
+                <ul>
+                    <li><a href="#" class="gou">小米生活方式</a></li>
+                    <li><a href="#" class="xiao">服装 米兔 背包 生活周边</a></li>
+                </ul>
+            </div>
+
+            <div class="advertisement">
+                <div class="banner">
+                    <img src="images/banner1.png">
+                    <img src="images/banner2.png">
+                    <img src="images/banner3.png">
+                    <img src="images/banner4.png">
+                    <img src="images/banner5.png">
+                </div>    
+                <ul class="row">
+                    <li class="current">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>    
+            </div>
+            <script>
+                $(".advertisement li").click(function(){
+                    $(this).addClass("current").siblings().removeClass("current");
+                    $(".banner img").eq($(this).index()).fadeIn(300).siblings().fadeOut(300);
+                })
+            </script>
+            <div class="xianhuo row">
+                <div class="co r-border">
+                    <img src="images/01.png">
+                </div>
+                <div class="co r-border">
+                    <img src="images/02.png">
+                </div>
+                <div class="col">
+                    <img src="images/03.png">
+                </div>
+            </div>
+        </div>
+    
+
+    <p>小米明星单品&nbsp;&nbsp;<span>根据机型选配件</span></p>
+    <div class="shangping">
+        <div class="row">
+            <div class="col-3 r-border ">
+                <img src="images/T1PxJvBCAT1RXrhCrK!220x220.jpg">
+            </div>
+            <div class="col-3 r-border ">
+                <img src="images/T1XYxTBsAT1RXrhCrK!220x220.jpg">
+            </div>
+            <div class="col-3 r-border ">
+                <img src="images/T1y0JTBy_T1RXrhCrK!220x220.jpg">
+            </div>
+            <div class="col-3 ">
+                <img src="images/aa.jpg">
+            </div>
+        </div>
+    </div>
+
+    <p>新品上架</p>
+    <div class="row border">
+        <div class="col-9">
+            <div class="col-8 yingxiang r-border b-border">
+                <img src="images/fanghezi0407xiao.jpg" >
+            </div>
+            <div class="shouhuan col-4 r-border b-border">
+                <p class="shou">小米手环</p>
+                <p class="shou">79元</p>
+            </div>
+            <div class="col-4">
+                <div class="b-bottom1 r-border b-border">
+                    <p class="shou">5周年米兔钥匙扣</p>
+                    <p class="ji">9.9元</p>
+                </div>
+                <div class="b-bottom2 r-border b-border">
+                    <p class="shou">QCY派Q8蓝牙耳机</p>
+                    <p class="ji">59.9元</p>
+                </div>
+            </div>
+            <div class="col-4 b-bottom r-border b-border">
+                <p class="shou">小米T恤路标MILOGO</p>
+                <p class="ji">39元</p>
+                <img src="images/T1crEgBCYT1RXrhCrK!220x220.jpg">
+            </div>
+            <div class="col-4 b-bottom r-border b-border">
+                <p class="shou">小米4实木后盖</p>
+                <p class="ji">69元</p>
+                <img src="images/T12qZvB7CT1RXrhCrK!220x220.jpg">
+                
+            </div>
+            <div class="col-4 b-bottom r-border ">
+                <p class="shou">小米Note超薄保护壳</p>
+                <p class="ji">49元</p>
+                <img src="images/baohuke.png">    
+            </div>
+            <div class="col-4  r-border b-bottom ">
+                <p class="shou">小米自拍杆</p>
+                <p class="ji">49元</p>
+                <img src="images/T1DrL_B4CT1RXrhCrK!220x220.jpg">     
+            </div>
+            <div class="col-4 r-border b-bottom ">
+                <p class="shou">先锋CL31系列耳式耳机</p>
+                <p class="ji">99元</p>
+                <img src="images/T1GXxvBsET1RXrhCrK!220x220.jpg">     
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="tejiashangpin">
+                <a href="#">
+                    <div class="SanDisk b-border">
+                        <p class="shou">SanDisk32GB储存卡</p>
+                        <p class="ji">79元109元</p>
+                        <p class="ji">还有更多特价商品</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="tehui b-border">
+                        <p class="shou">特惠配件套餐</p>
+                        <p class="ji">手机必备配件组合购买</p>
+                        <p class="ji">实惠更优惠</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="woai b-border">
+                        <p class="shou">我爱酷玩</p>
+                        <p class="ji">邂逅炫酷的电子产品</p>
+                        <p class="ji">结交趣味相投的朋友</p>
+                    </div>
+                </a>
+            </div>
+            <div class="qiye">
+                <ul class="tongdao row"> 
+                    <li><a href="#" class="chaxun">企业用户采购通道&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>></span></a></li><hr/>      
+                    <li><a href="#" class="chaxun">小米手机防伪查询&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>></span></a></li><hr/>
+                    <li><a href="#" class="chaxun">小米手机官方版&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>></span></a></li><hr/>
+                    <li><a href="#" class="chaxun">小米路由器官方版&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>></span></a></li><hr/>
+                    <li><a href="#" class="chaxun">米粉红包&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>></span></a></li><hr/>
+                </ul>
+                <div class="huafei">
+                    <h4>花费充值</h4>
+                    <div class="hao">
+                        <input type="text" placeholder="请输入手机号">
+                    </div>
+                    <div class="select">
+                        <select class="ss">
+                            <option value="100">100</option>
+                            <option value="50">50</option>
+                            <option value="30">30</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    <div class="fufei">
+                        <button class="btn">立即充值</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    </div>    
+    </div> 
+    <div class="footer">
+        <div class="foot">
+            <div class="shouhou row">
+                <div class="col-20">
+                    <img src="images/10.png">
+                    <p>1小时快修服务</p>
+                </div>
+                <div class="col-20">
+                    <img src="images/11.png">
+                    <p>7天无理由退货</p>
+                    </div>
+                <div class="col-20">
+                    <img src="images/12.png">
+                    <p>15天免费换货</p>
+                </div>
+                <div class="col-20">
+                    <img src="images/13.png">
+                    <p>满150元包邮</p>
+                </div>
+                <div class="col-20">
+                    <img src="images/14.png">
+                    <p>520余家售后网点</p>
+                </div>
+            </div>
+            
+            <hr/>
+            <div class="help">
+                <div class="fuwu r-border">
+                    <li><a href="#" class="rr">帮助中心</a></li>
+                    <li><a href="#" class="ff">购物指南</a></li>
+                    <li><a href="#" class="ff">支付方式</a></li>
+                    <li><a href="#" class="ff">配送方式</a></li>
+                </div> 
+                <div class="fuwu r-border">
+                    <li><a href="#" class="rr">服务支持</a></li>
+                    <li><a href="#" class="ff">售后政策</a></li>
+                    <li><a href="#" class="ff">自助服务</a></li>
+                    <li><a href="#" class="ff">相关下载</a></li>
+                </div> 
+                <div class="fuwu r-border">
+                    <li><a href="#" class="rr">小米之家</a></li>
+                    <li><a href="#" class="ff">小米之家</a></li>
+                    <li><a href="#" class="ff">服务网店</a></li>
+                    <li><a href="#" class="ff">预约亲临到店服务</a></li>
+                </div> 
+                <div class="fuwu r-border">
+                    <li><a href="#" class="rr">关于小米</a></li>
+                    <li><a href="#" class="ff">了解小米</a></li>
+                    <li><a href="#" class="ff">加入小米</a></li>
+                    <li><a href="#" class="ff">联系我们</a></li>
+                </div> 
+                <div class="fuwu r-border">
+                    <li><a href="#" class="rr">关注我们</a></li>
+                    <li><a href="#" class="ff">新浪微博</a></li>
+                    <li><a href="#" class="ff">小米部落</a></li>
+                    <li><a href="#" class="ff">官方微信</a></li>
+                </div> 
+                <div class="kefu">
+                    <h2>400-100-5678</h2>
+                    <h4>周一至周日8:00~18:00</h4>
+                    <h4>（仅收市话费）</h4>
+                    <button class="btn">24小时在线客服</button>
+                </div>
+            </div>
+            <div class="wangzhan">
+            <h4>小米旗下网站：小米网&nbsp;&nbsp;MIUI&nbsp;&nbsp;米聊&nbsp;&nbsp;多看书城&nbsp;&nbsp;小米路由器&nbsp;&nbsp;繁体香港&nbsp;&nbsp;繁体台湾&nbsp;&nbsp;English&nbsp;&nbsp;小米后院&nbsp;&nbsp;小米天猫店&nbsp;&nbsp;小米淘宝直营店&nbsp;&nbsp;小米网盟</h4>
+            <h4>@m.com京ICP证110507号&nbsp;&nbsp; 京ICP备10046444号&nbsp;&nbsp; 京公网安备1101080212535号&nbsp;&nbsp; 京网文[2014]0059-0009号</h4>
+            </div>
+            <div class="xin">
+                <img src="images/16.png">
+                <select class="jianti">
+                    <option value="简体中文">简体中文</option>
+                    <option value="繁体中文">繁体中文</option>
+                    <option value="English">English</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
